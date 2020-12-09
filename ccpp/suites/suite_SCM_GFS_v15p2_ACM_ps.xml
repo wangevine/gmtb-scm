@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="SCM_GFS_v15p2_ACM_ps" lib="ccppphys" ver="4">
+<suite name="SCM_GFS_v15p2_ACM_ps" version="1">
   <group name="time_vary">
     <subcycle loop="1">
       <scheme>GFS_time_vary_pre</scheme>
@@ -33,7 +33,7 @@
       <scheme>GFS_suite_interstitial_2</scheme>
       <scheme>gmtb_scm_sfc_flux_spec</scheme>
       <scheme>GFS_PBL_generic_pre</scheme>
-      <scheme>bl_acm</scheme>
+      <!--<scheme>bl_acm</scheme>-->
       <scheme>GFS_PBL_generic_post</scheme>
       <scheme>GFS_GWD_generic_pre</scheme>
       <scheme>cires_ugwp</scheme>

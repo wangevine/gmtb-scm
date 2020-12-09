@@ -2,6 +2,7 @@
        fhzero         = 6.
        h2o_phys       = .true.
        ldiag3d        = .true.
+       qdiag3d        = .true.
        fhcyc          = 24.
        use_ufo        = .true.
        pre_rad        = .false.
@@ -46,7 +47,6 @@
        do_sppt        = .false.
        do_shum        = .false.
        do_skeb        = .false.
-       do_sfcperts    = .false.
        do_RRTMGP      = .true.
        active_gases   = 'h2o_co2_o3_n2o_ch4_o2'
        ngases         = 6
@@ -55,7 +55,7 @@
        lw_file_clouds = 'extensions/cloud_optics/rrtmgp-cloud-optics-coeffs-lw.nc'
        sw_file_gas    = 'rrtmgp/data/rrtmgp-data-sw-g224-2018-12-04.nc'
        sw_file_clouds = 'extensions/cloud_optics/rrtmgp-cloud-optics-coeffs-sw.nc'
-       rrtmgp_cld_optics = 0
+       doG_cldoptics = .true.
        rrtmgp_ngauss_ang = 3
        rrtmgp_nrghice = 3
 /
